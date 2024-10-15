@@ -34,7 +34,7 @@ if not os.path.exists("generated_storybook"):
 client = ollama.Client()
 
 # Replace with your Hugging Face authentication token
-HF_AUTH_TOKEN = "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"  # Update this with your Hugging Face token
+HF_AUTH_TOKEN = ""  # Update this with your Hugging Face token
 
 # Load the Stable Diffusion Pipeline
 device = "cuda" if torch.cuda.is_available() else "cpu"
